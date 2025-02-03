@@ -11,6 +11,6 @@ function loadContent(id, file) {
 // DOM cargado
 document.addEventListener('DOMContentLoaded', function() {
     // Cargar contenido de la pagina
-    loadContent('header', 'header.html');
-    loadContent('footer', 'footer.html');
+    loadContent('header', 'front/paginas/header.html');
+    loadContent('footer', 'front/paginas/footer.html');
 });
